@@ -450,7 +450,15 @@ blockquote {
 	text-transform: uppercase;
 	font-weight: 300;
 }
-
+.nav-pills > li > p {
+	border-radius: 0;
+	padding: 8px 20px;
+	border: 1px solid #cacaca;
+	color: #666666;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
 /* Forms
 ---------------------------------- */
 .form-control {
@@ -688,7 +696,7 @@ textarea {
 	margin-right: 2px;
 	margin-bottom: 2px;
 }
-.filters .nav-pills > li + li {
+.filters .nav-pills > li + li {	
 	margin-left: 0px;
 }
 .text-center.filters .nav-pills > li {
