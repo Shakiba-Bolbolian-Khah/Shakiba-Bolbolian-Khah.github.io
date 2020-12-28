@@ -246,15 +246,16 @@
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingThree">
 											<h4 class="panel-title">
-												<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 													Teaching Assistant at the University of Tehran
 												</a>
 											</h4>
 										</div>
-										<div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 											<div class="panel-body">
 												<ul class="list-unstyled">
 													<li><i class="fa fa-book pr-10 text-colored"></i> <strong>Discrete Mathematics</strong></li>
@@ -280,25 +281,25 @@
 											</div>
 										</div>
 									</div>
+
+
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingFour">
 											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
 													Software Intern at Mobile Communications Laboratory
 												</a>
 											</h4>
 										</div>
-										<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+										<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
 											<div class="panel-body">
 												<ul class="list-unstyled">
 													<li><i class="fa fa-university pr-10 text-colored"></i> University of Tehran, Tehran, Iran</li>
 													<li><i class="fa fa-angle-right pr-10 text-colored"></i> Supervisor: <a href="https://scholar.google.ca/citations?user=EbkCWiEAAAAJ&hl=en" style="color: rgb(123, 122, 122);">Dr. Vahid Shah-Mansouri</a></li>
 													<li><i class="fa fa-calendar-o pr-10 text-colored"></i> Apr. 2020 - Sep. 2020</li>
-													<li><i class="fa fa-angle-right pr-10 text-colored"></i><strong> Woking with:</strong></li>
-													<li> <strong>Layer 2 Testing Principles</strong>: Different types of network layer 2 testing methods, their goals and functionality based on RFC2889 such as congestion control, forward pressure, maximum forwarding rate, address learning rate, address caching rate, etc.<br>
-													<strong> Raw Sockets</strong>: Learning socket programming using raw sockets.<br>
-													<strong>Multi-threading</strong>: Using multi-threading to implement tests in linux environment.<br>
-													<strong>Tcpdump</strong>: Using to trace packets in network while implementation.
+													<li><i class="fa fa-angle-right pr-10 text-colored"></i><strong> Woking on Layer 2 Testing Principles</strong>
+													: Implementing different types of network layer 2 testing methods, their goals and functionality based on RFC2889 
+													such as congestion control, forward pressure, maximum forwarding rate, address learning rate, etc. using raw sockets.</li>
 												</ul>
 											</div>
 										</div>
@@ -764,7 +765,7 @@
 			<div class="container">
 				<h1 class="text-center title" id="project">Academic Projects</h1>
 				<div class="separator"></div>
-				<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
+				<!-- <p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p> -->
 				<br>			
 				<div class="row object-non-visible" id="here" data-animation-effect="fadeIn">
 					<div class="col-md-12">
