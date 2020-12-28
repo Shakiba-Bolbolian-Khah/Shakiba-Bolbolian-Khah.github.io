@@ -5,8 +5,8 @@
 <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
-		<title>Shakiba B. Portfolio</title>
-		<meta name="description" content="Shakiba B. Portfolio">
+		<title>Shakiba Bolbolian Khah</title>
+		<meta name="description" content="Shakiba Bolbolian Khah">
 		<meta name="author" content="htmlcoder.me">
 
 		<!-- Mobile Meta -->
@@ -167,7 +167,7 @@
 									Also, I am capable enough to become skillful in different topics by <strong>self-learning</strong>.
 								</p>
 									<!-- <ul class="list-unstyled">
-									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Compilers and Code Ge</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored" style="padding-right: 0px;"></i> Compilers and Code Ge</li>
 								</ul> -->
 								<!-- <div class="col-md-6"> -->
 								
@@ -297,7 +297,7 @@
 													<li><i class="fa fa-university pr-10 text-colored"></i> University of Tehran, Tehran, Iran</li>
 													<li><i class="fa fa-angle-right pr-10 text-colored"></i> Supervisor: <a href="https://scholar.google.ca/citations?user=EbkCWiEAAAAJ&hl=en" style="color: rgb(123, 122, 122);">Dr. Vahid Shah-Mansouri</a></li>
 													<li><i class="fa fa-calendar-o pr-10 text-colored"></i> Apr. 2020 - Sep. 2020</li>
-													<li><i class="fa fa-angle-right pr-10 text-colored"></i><strong> Woking on Layer 2 Testing Principles</strong>
+													<li><i class="fa fa-angle-right pr-10 text-colored"></i> Woking on Layer 2 Testing Principles
 													: Implementing different types of network layer 2 testing methods, their goals and functionality based on RFC2889 
 													such as congestion control, forward pressure, maximum forwarding rate, address learning rate, etc. using raw sockets.</li>
 												</ul>
@@ -317,7 +317,7 @@
 												<ul class="list-unstyled">
 													<li><i class="fa fa-angle-right pr-10 text-colored"></i> Faculty Sponsor: <a href="https://scholar.google.com/citations?user=b9ib0IYAAAAJ&hl=en" style="color: rgb(123, 122, 122);">Dr. Ramtin Kosravi</a></li>
 													<li><i class="fa fa-calendar-o pr-10 text-colored"></i> Jun. 2019 - Sep. 2020</li>
-													<li><i class="fa fa-angle-right pr-10 text-colored"></i><strong> Responsibilities:</strong></li>
+													<li><i class="fa fa-angle-right pr-10 text-colored"></i> Responsibilities:</li>
 													<li> Holding various events such as Internet Programming Contest(UT ICPC), Algorithm Courses, Maze Competition, etc.<br>
 													Editor of Science and Technology Magazine of ACM Student Chapter called 'F1'.</li>
 												</ul>
@@ -350,10 +350,10 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-cogs pr-10 text-colored"></i> Machine Learning
+										<i class="fa fa-cogs pr-10 text-colored" style="padding-right: 0px;"></i> Machine Learning
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#0077d0" }'>
-												<span class="pct">50%</span>
+												<span class="pct">60%</span>
 											</span>
 										</div>
 									</li>
@@ -362,7 +362,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> Object-Oriented Programming(OOP)
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> Object-Oriented Programming
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#0077d0" }'>
 												<span class="pct">85%</span>
@@ -374,7 +374,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-laptop pr-10 text-colored"></i> Operating Systems
+										<i class="fa fa-laptop pr-10 text-colored" style="padding-right: 0px;"></i> Operating Systems
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#0077d0" }'>
 												<span class="pct">75%</span>
@@ -386,7 +386,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-superscript pr-10 text-colored"></i> Algorithm
+										<i class="fa fa-superscript pr-10 text-colored" style="padding-right: 0px;"></i> Algorithm
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#0077d0" }'>
 												<span class="pct">75%</span>
@@ -398,7 +398,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-cog pr-10 text-colored"></i> Computer Architecture
+										<i class="fa fa-cog pr-10 text-colored" style="padding-right: 0px;"></i> Computer Architecture
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#0077d0" }'>
 												<span class="pct">70%</span>
@@ -410,7 +410,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-file-code-o pr-10 text-colored"></i> Compilers & Code Generation
+										<i class="fa fa-file-code-o pr-10 text-colored" style="padding-right: 0px;"></i> Compilers & Code Generation
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#0077d0" }'>
 												<span class="pct">80%</span>
@@ -432,7 +432,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> Python
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> Python
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#00589a" }'>
 												<span class="pct">90%</span>
@@ -444,7 +444,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> C++
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> C++
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#00589a" }'>
 												<span class="pct">88%</span>
@@ -456,7 +456,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> C
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> C
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#00589a" }'>
 												<span class="pct">84%</span>
@@ -468,7 +468,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> Java
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> Java
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#00589a" }'>
 												<span class="pct">85%</span>
@@ -480,7 +480,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-html5 pr-10 text-colored"></i> HTML
+										<i class="fa fa-html5 pr-10 text-colored" style="padding-right: 0px;"></i> HTML
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#00589a" }'>
 												<span class="pct">80%</span>
@@ -492,7 +492,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-css3 pr-10 text-colored"></i> CSS
+										<i class="fa fa-css3 pr-10 text-colored" style="padding-right: 0px;"></i> CSS
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#00589a" }'>
 												<span class="pct">60%</span>
@@ -504,7 +504,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> Verilog
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> Verilog
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#00589a" }'>
 												<span class="pct">80%</span>
@@ -516,7 +516,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> VHDL
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> VHDL
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#00589a" }'>
 												<span class="pct">50%</span>
@@ -538,7 +538,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> React.js
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> React.js
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#003964" }'>
 												<span class="pct">80%</span>
@@ -550,7 +550,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> Bootstrap
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> Bootstrap
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#003964" }'>
 												<span class="pct">70%</span>
@@ -562,7 +562,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> Numpy & Pandas
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> Numpy & Pandas
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#003964" }'>
 												<span class="pct">75%</span>
@@ -574,7 +574,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code pr-10 text-colored"></i> Pytorch
+										<i class="fa fa-code pr-10 text-colored" style="padding-right: 0px;"></i> Pytorch
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#003964" }'>
 												<span class="pct">70%</span>
@@ -596,7 +596,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-database pr-10 text-colored"></i> MySQL
+										<i class="fa fa-database pr-10 text-colored" style="padding-right: 0px;"></i> MySQL
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#06243b" }'>
 												<span class="pct">70%</span>
@@ -608,7 +608,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-code-fork pr-10 text-colored"></i> Git
+										<i class="fa fa-code-fork pr-10 text-colored" style="padding-right: 0px;"></i> Git
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#06243b" }'>
 												<span class="pct">80%</span>
@@ -620,7 +620,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-cog pr-10 text-colored"></i> Maven
+										<i class="fa fa-cog pr-10 text-colored" style="padding-right: 0px;"></i> Maven
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#06243b" }'>
 												<span class="pct">65%</span>
@@ -632,7 +632,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-cogs pr-10 text-colored"></i> Docker
+										<i class="fa fa-cogs pr-10 text-colored" style="padding-right: 0px;"></i> Docker
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#06243b" }'>
 												<span class="pct">60%</span>
@@ -644,7 +644,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-cogs pr-10 text-colored"></i> Kubernetes
+										<i class="fa fa-cogs pr-10 text-colored" style="padding-right: 0px;"></i> Kubernetes
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#06243b" }'>
 												<span class="pct">50%</span>
@@ -656,7 +656,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-pencil-square-o pr-10 text-colored"></i> LATEX
+										<i class="fa fa-pencil-square-o pr-10 text-colored" style="padding-right: 0px;"></i> LATEX
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#06243b" }'>
 												<span class="pct">80%</span>
@@ -668,7 +668,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-cog pr-10 text-colored"></i> Mininet
+										<i class="fa fa-cog pr-10 text-colored" style="padding-right: 0px;"></i> Mininet
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#06243b" }'>
 												<span class="pct">60%</span>
@@ -680,7 +680,7 @@
 							<div class="col-md-6">
 								<ul id="skills">	
 									<li>
-										<i class="fa fa-linux pr-10 text-colored"></i> Linux
+										<i class="fa fa-linux pr-10 text-colored" style="padding-right: 0px;"></i> Linux
 										<div class="bar-container">
 											<span class="bar" data-bar='{ "color": "#06243b" }'>
 												<span class="pct">85%</span>
@@ -763,7 +763,7 @@
 		<!-- ================ -->
 		<div class="section">
 			<div class="container">
-				<h1 class="text-center title" id="project">Academic Projects</h1>
+				<h1 class="text-center title" id="project">Academic <span>Projects</span></h1>
 				<div class="separator"></div>
 				<!-- <p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p> -->
 				<br>			

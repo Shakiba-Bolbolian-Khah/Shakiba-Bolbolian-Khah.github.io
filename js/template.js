@@ -110,9 +110,7 @@
 		}
 
 	}); // End document ready
-})(this.jQuery);
 
-;( function( $ ) {
 	"use strict";
 	
 	var $bars = $( ".bar" ),
@@ -155,6 +153,10 @@
 		};
 	
 	// Initialize on page load
-	methods.init();	
+	methods.init();
+})(this.jQuery);
+
+// ;( function( $ ) {
 		
-})( jQuery );
+		
+// })( jQuery );
