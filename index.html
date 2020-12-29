@@ -772,11 +772,11 @@
 						<div class="filters text-center">
 							<ul class="nav nav-pills">
 								<li class="active"><a href="#here" data-filter="*">All</a></li>
-								<li><a href="#here" data-filter=".ai">Artificial Intelligence</a></li>
+								<li><a href="#here" data-filter=".ai">Machine Learning</a></li>
 								<li><a href="#here" data-filter=".web">Web Application</a></li>
+								<li><a href="#here" data-filter=".compiler">Compilers</a></li>
 								<li><a href="#here" data-filter=".hw">Hardware Programming</a></li>
 								<li><a href="#here" data-filter=".os">Operating Systems</a></li>
-								<li><a href="#here" data-filter=".compiler">Compilers</a></li>
 								<li><a href="#here" data-filter=".cn">Computer Networks</a></li>
 							</ul>
 						</div>
@@ -816,7 +816,7 @@
 														Spring MVC, MySQL as database, etc. and deployed using Kubernetes and Docker.</p>
 														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/InternetEngineering-LoghmeReactjsFrontend"><i class="fa fa-github"></i>
 															<strong> Loghme's Front end</strong></a>
-															: Implementeing using HTML, CSS, JavaScript, React.js, Nginx (with Kubernetes and Docker for deployment), etc.</p>
+															: Implemented using HTML, CSS, JavaScript, React.js, Nginx (with Kubernetes and Docker for deployment), etc.</p>
 														
 													</div>
 													<div class="col-md-4">
@@ -882,7 +882,7 @@
 										<img src="images/NNscratch.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-3">
 											<i class="fa fa-search-plus"></i>
-											<span>Artificial Intelligence</span>
+											<span>Machine Learning</span>
 										</a>
 									</div>
 									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Neural Network from Scratch</a>
@@ -926,7 +926,7 @@
 										<img src="images/Pytorch.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-4">
 											<i class="fa fa-search-plus"></i>
-											<span>Artificial Intelligence</span>
+											<span>Machine Learning</span>
 										</a>
 									</div>
 									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Neural Network with Pytorch</a>
@@ -949,7 +949,8 @@
 															is implemented with<strong> Pytorch</strong> in Google Colab to analyze different variables and methods and their effects on neural networks' performance.
 															These are consisted of learning rate, batch size, activation function, momentum, number of epoch, regularization, etc.
 														</p>
-															<p> The implemented NN has to do <strong>image classification</strong>, learn features of a dataset consisted of pictures from 52 different types of accessories, and predict new pictures.</p>													</div>
+															<p> The implemented NN has to do <strong>image classification</strong>, learn features of a dataset consisted of pictures from 52 different types of accessories, and predict new pictures.
+																It has been developed as a student project for <strong>Artificial Intelligence</strong> course.</p>													</div>
 													<div class="col-md-4">
 														<img src="images/Pytorch.jpg" alt="">
 													</div>
@@ -963,8 +964,367 @@
 								</div>
 								<!-- Modal end -->
 							</div>
+							<div class="col-sm-6 col-md-3 isotope-item ai">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/sickit.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-5">
+											<i class="fa fa-search-plus"></i>
+											<span>Machine Learning</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Application of SciKit-Learn</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-5-label">Machine Learning with SciKit-Learn Library</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ArtificialIntelligence-MachineLearning"><i class="fa fa-github"></i>
+															<strong>Various machine-learning techniques</strong></a>
+															is implemented with<strong> Scikit-learn library methods</strong> in Jupyter notebook to process a dataset of 
+															some markets' customers to predict whether they come back later to that market or not.
+															</p>
+															<p> Various <strong>pre-processing techniques</strong> was applied to the dataset as well as using different classifiers
+															such as decision tree, KNN, random forests, etc. 
+															It has been developed as a student project for <strong>Artificial Intelligence</strong> course.</p>
+															
+													</div>
+													<div class="col-md-4">
+														<img src="images/sickit.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item ai">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/nlp.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-6">
+											<i class="fa fa-search-plus"></i>
+											<span>Machine Learning</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Bayesian Network</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-6-label">Text Processing using Bayesian Network</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ArtificialIntelligence-BayesianTextProcessing"><i class="fa fa-github"></i>
+															<strong>A Bayesian Network</strong></a>
+															was implemented from <strong> scratch</strong> to process dataset consisting of different text news to predict their category with Python in Jupyter notebook.
+															</p>
+															<p> Practical techniques like <strong>bag of words</strong> were used to obtain more accurate result.
+															It has been developed as a student project for <strong>Artificial Intelligence</strong> course.</p>
+															
+													</div>
+													<div class="col-md-4">
+														<img src="images/nlp.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item ai">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/genetic.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-7">
+											<i class="fa fa-search-plus"></i>
+											<span>Machine Learning</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Genetic Algorithm</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-7-label">Replacement Decoding using Genetic Algorithm</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ArtificialIntelligence-GeneticReplacementDecoding"><i class="fa fa-github"></i>
+															<strong>A Genetic Algorithm</strong></a>
+															was implemented from <strong> scratch</strong> to decode an encoded text with replacement method and extract the original text.
+															</p>
+															<p> The algorithm uses a given dictionary
+																as its reference for acceptable words. <strong>Mutation and cross-over</strong> were implemented as fast and effective as possible, as well as the application 
+																of practical techniques like <strong>eliminating stop words</strong> to obtain more accurate result.
+															It has been developed as a student project for <strong>Artificial Intelligence</strong> course.</p>
+															
+													</div>
+													<div class="col-md-4">
+														<img src="images/genetic.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item ai">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/cm.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-8">
+											<i class="fa fa-search-plus"></i>
+											<span>Machine Learning</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Price Estimation</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-8" tabindex="-1" role="dialog" aria-labelledby="project-8-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-8-label">Price Estimation with Regression</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ArtificialIntelligence-EstimationRegression"><i class="fa fa-github"></i>
+															<strong>A Regression Model</strong></a>
+															was implemented to processing a dataset containing <strong>spoken text data</strong> about second-hand mobile devices and their prices to estimate 
+															new entries' price using different Python libraries such as Numpy, Pandas, and SciKit-Learn in Jupyter notebook.</p>
+															<p>As well as <strong>bag of words</strong>, various techniques were used to preprocess text messages. Pre-processing was the 
+																critical part of the projects, since text data was consisted of both <strong>English</strong> and <strong>spoken Persian</strong> words with
+																spelling problems.
+															It has been developed as a student project for <strong>Artificial Intelligence</strong> course.</p>
+													</div>
+													<div class="col-md-4">
+														<img src="images/cm.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item ai">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/search.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-9">
+											<i class="fa fa-search-plus"></i>
+											<span>Machine Learning</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-9">Search Problems</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-9" tabindex="-1" role="dialog" aria-labelledby="project-9-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-9-label">Informed and Uninformed Search Algorithm</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ArtificialIntelligence-Search"><i class="fa fa-github"></i>
+															<strong>Various search algorithms</strong></a>
+															were implemented from <strong>scratch</strong> to find best route for an agent in a givan play ground with obstacles using Python in Jupyter notebook.</p>
+															<p>Uninformed search algorithms like <strong>BFS</strong> and <strong>DFS</strong> as well as informed one like <strong>A*</strong> 
+																were implemented. I also compared their performance based on problem.
+															It has been developed as a student project for <strong>Artificial Intelligence</strong> course.</p>
+													</div>
+													<div class="col-md-4">
+														<img src="images/search.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item compiler">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/java.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-10">
+											<i class="fa fa-search-plus"></i>
+											<span>Compilers & Code Generation</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-10">Toorla Compiler</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-10" tabindex="-1" role="dialog" aria-labelledby="project-10-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-10-label">Toorla, Tiny Object Orinted Readable Language</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><strong>Toorla</strong> is an object-oriented <strong>Java-like</strong> programming language which supports <strong>inheritance</strong>.
+															 Each Toorla program with .trl foramt contains one or more classes that have some fields and
+															methods. Toorla has been implemented in four phases using Java in IntelliJ IDEA.</p>
 
+															It has been developed as a student project for <strong>Compiler Design and Programming Languages</strong> course.</p>
 
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase1"><i class="fa fa-github"></i>
+															<strong>Phase I, Lexer and Parser</strong></a>:
+															Toorla's grammar was implemented using <strong>ANTLR</strong> and 
+															as well as a parser to create <strong>abstract syntax tree (AST)</strong> of input program.
+														
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase2"><i class="fa fa-github"></i>
+															<strong>Phase II, Name Analyzer</strong></a>:
+															The name analyzer of the language was implemented to gather information about <strong>classes,
+															 fields, methods, local variables, 
+															and scopes</strong> of program and finding<strong> name analysis errors </strong>like undefined variables or redefinition.
+
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase3"><i class="fa fa-github"></i>
+															<strong>Phase III, Type Analyzer</strong></a>:
+															A type checker was implemented to<strong> check the types of variables</strong> in input program, 
+															finding<strong> relevant errors</strong> based on Toorla's documentation and <strong> setting initial value for various types</strong>.
+
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase4"><i class="fa fa-github"></i>
+															<strong>Phase IV, Code Generation</strong></a>:
+															The machine code was generated by converting Toorla's code to <strong> jasmin</strong> as a middle layer. 
+															Jasmin assembler converts its codes to<strong> class files</strong> which can be executed by<strong> JVM</strong> later.
+
+													</div>
+													<div class="col-md-4">
+														<img src="images/java.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item os">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/xv6.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-11">
+											<i class="fa fa-search-plus"></i>
+											<span>Operating Systems</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-11">XV6 Operating System</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-11" tabindex="-1" role="dialog" aria-labelledby="project-11-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-11-label">Working woth XV6</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><strong>XV6</strong> is a teaching operating system which was edited and improved as a student project for <strong>Operating Systems</strong> course.
+														Having implemented various features, I have been familiar with technical aspects of operating systems.
+														</p>
+
+													   <p><a href="https://github.com/Shakiba-Bolbolian-Khah/OperatingSystems-xv6Intro"><i class="fa fa-github"></i>
+														   <strong>Introduction to Xv6 OS</strong></a>:
+														   I got familiar with Xv6, its execution, debugging, improving its<strong> console</strong> by adding some features, 
+														   and implementing new program to<strong> copy text data</strong> from a file to another one.</p>
+													   
+													   <p><a href="https://github.com/Shakiba-Bolbolian-Khah/OperatingSystems-Systemcalls"><i class="fa fa-github"></i>
+														   <strong>XV6 System Calls</strong></a>:
+														   Several new system calls were implemented and added to the OS which enable XV6 to<strong> run commands out of the directory </strong>
+														   in which their execution file exists,<strong> sleep a process for an arbitrary period</strong> using Xv6's ticks,   
+														   and< obtain current<strong> process's pid</strong> and its children and grandchildren.</p>
+
+													   <p><a href="https://github.com/Shakiba-Bolbolian-Khah/OperatingSystems-Scheduling"><i class="fa fa-github"></i>
+														   <strong>Process Scheduling</strong></a>:
+														   A<strong> multilevel feedback queue scheduler (MFQ)</strong> was implemented which includes<strong> lottery,
+															    HRRN, and SRPF</strong> methods as its scheduling levels in Xv6.</p>
+
+													   <p><a href="https://github.com/Shakiba-Bolbolian-Khah/OperatingSystems-Synchronization"><i class="fa fa-github"></i>
+														   <strong>Process Synchronization Mechanisms</strong></a>:
+														   Two synchronization mechanisms were added to<strong> prevent out-of-order execution of 
+														   processes</strong>, and<strong> use mutex more than once</strong> in recursive programs.
+													   </p>
+													
+													
+													
+													
+													</div>
+													<div class="col-md-4">
+														<img src="images/xv6.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
 						</div>
 						<!-- portfolio items end -->
 					
@@ -972,208 +1332,27 @@
 				</div>
 			</div>
 		</div>
-		<!-- section end -->
-
-		<!-- section start -->
-		<!-- ================ -->
-		<!-- <div class="section translucent-bg bg-image-2 pb-clear">
-			<div class="container object-non-visible" data-animation-effect="fadeIn">
-				<h1 id="clients" class="title text-center">Clients</h1>
-				<div class="space"></div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-1.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">You are Amazing!</h3>
-								<blockquote>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-2.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Yeah!</h3>
-								<blockquote>
-									<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-3.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Thank You!</h3>
-								<blockquote>
-									<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-2.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Thank You!</h3>
-								<blockquote>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-3.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Amazing!</h3>
-								<blockquote>
-									<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media testimonial">
-							<div class="media-left">
-								<img src="images/testimonial-1.png" alt="">
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Best!</h3>
-								<blockquote>
-									<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>
-									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-			<!-- section start -->
-			<!-- ================ -->
-			<!-- <div class="translucent-bg blue">
-				<div class="container">
-					<div class="list-horizontal">
-						<div class="row">
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-1.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-2.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-3.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-4.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-5.png" alt="client">
-								</div>
-							</div>
-							<div class="col-xs-2">
-								<div class="list-horizontal-item">
-									<img src="images/client-6.png" alt="client">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<!-- section end -->
-
-		<!-- section start -->
-		<!-- ================ -->
-
-		<!-- section end -->
-
-		<!-- footer start -->
 		<!-- ================ -->
 		<footer id="footer">
 
 			<!-- .footer start -->
 			<!-- ================ -->
-			<!-- <div class="footer section">
+			<div class="footer section">
 				<div class="container">
-					<h1 class="title text-center" id="contact">Contact Us</h1>
+					<h1 class="title text-center" id="contact">Contact <span>Me!</span></h1>
 					<div class="space"></div>
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="footer-content">
-								<p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis.</p>
-								<ul class="list-icons">
-									<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
-									<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
-									<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
-									<li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>
-								</ul>
+					<div class="row text-center">
+						<div class="col-md-12"">
 								<ul class="social-links">
-									<li class="facebook"><i class="fa fa-facebook"></i></li>
-									<li class="twitter"><i class="fa fa-twitter"></i></li>
-									<li class="googleplus"><i class="fa fa-google-plus"></i></li>
-									<li class="skype"><i class="fa fa-skype"></i></li>
-									<li class="linkedin"><i class="fa fa-linkedin"></i></li>
-									<li class="youtube"><i class="fa fa-youtube"></i></li>
-									<li class="flickr"><i class="fa fa-flickr"></i></li>
-									<li class="pinterest"><i class="fa fa-pinterest"></i></li>
+									<li class="googleplus"><a href="mailto:shakiba.bolbolian@gmail.com"> <i class="fa fa-google"></i></a></li>
+									<li class="linkedin"><a href="https://www.linkedin.com/in/shakiba-bolbolian-khah/"> <i class="fa fa-linkedin"></i></a></li>
+									<li class="github"><a href="https://github.com/Shakiba-Bolbolian-Khah"><i class="fa fa-github"></i></a></li>
 								</ul>
-							</div>
 						</div>
-						<div class="col-sm-6">
-							<div class="footer-content">
-								<form role="form" id="footer-form">
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="name2">Name</label>
-										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
-										<i class="fa fa-user form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="email2">Email address</label>
-										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
-										<i class="fa fa-envelope form-control-feedback"></i>
-									</div>
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="message2">Message</label>
-										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
-										<i class="fa fa-pencil form-control-feedback"></i>
-									</div>
-									<input type="submit" value="Send" class="btn btn-default">
-								</form>
-							</div>
-						</div>
+						
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- .footer end -->
 
 			<!-- .subfooter start -->
@@ -1182,7 +1361,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="text-center">Copyright © 2014 Worthy by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>.</p>
+							<p class="text-center">Copyright © Worthy by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>.</p>
 						</div>
 					</div>
 				</div>
