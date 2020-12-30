@@ -772,99 +772,72 @@
 						<div class="filters text-center">
 							<ul class="nav nav-pills">
 								<li class="active"><a href="#here" data-filter="*">All</a></li>
+								<li><a href="#here" data-filter=".compiler">Compilers</a></li>
 								<li><a href="#here" data-filter=".ai">Machine Learning</a></li>
 								<li><a href="#here" data-filter=".web">Web Application</a></li>
-								<li><a href="#here" data-filter=".compiler">Compilers</a></li>
 								<li><a href="#here" data-filter=".hw">Hardware Programming</a></li>
 								<li><a href="#here" data-filter=".os">Operating Systems</a></li>
-								<li><a href="#here" data-filter=".cn">Computer Networks</a></li>
+								<!-- <li><a href="#here" data-filter=".cn">Computer Networks</a></li> -->
 							</ul>
 						</div>
 						<!-- isotope filters end -->
 
 						<!-- portfolio items start -->
 						<div class="isotope-container row grid-space-20">
-							<div class="col-sm-6 col-md-3 isotope-item web">
+							<div class="col-sm-6 col-md-3 isotope-item compiler">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/loghme1.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-1">
+										<img src="images/java.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-10">
 											<i class="fa fa-search-plus"></i>
-											<span>Web Application</span>
+											<span>Compilers & Code Generation</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Loghme</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-10">Toorla Compiler</a>
 								</div>
 								<!-- Modal -->
-								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+								<div class="modal fade" id="project-10" tabindex="-1" role="dialog" aria-labelledby="project-10-label" aria-hidden="true">
 									<div class="modal-dialog modal-lg">
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-1-label">Loghme, Online Food Delivery Web Application</h4>
+												<h4 class="modal-title" id="project-10-label">Toorla, Tiny Object Orinted Readable Language</h4>
 											</div>
 											<div class="modal-body">
 												<h3 style="font-size: large;">Project Description</h3>
 												<div class="space"></div>
 												<div class="row">
 													<div class="col-md-8">
-														<p><strong>Loghme</strong> is a Persian online food delivery web application similar to waiter.com and other food delivery cooperations. 
-															It has been developed during 8 phases as a student project for <strong>Internet Engineering</strong> course.</p>
-														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/InternetEngineering-LoghmeBackend"><i class="fa fa-github"></i>
-															<strong> Loghme's Back end</strong></a> 
-															: Implemented with Java in IntelliJ IDEA using various tools and technologies such as Maven, Apache Tomcat,
-														Spring MVC, MySQL as database, etc. and deployed using Kubernetes and Docker.</p>
-														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/InternetEngineering-LoghmeReactjsFrontend"><i class="fa fa-github"></i>
-															<strong> Loghme's Front end</strong></a>
-															: Implemented using HTML, CSS, JavaScript, React.js, Nginx (with Kubernetes and Docker for deployment), etc.</p>
-														
-													</div>
-													<div class="col-md-4">
-														<img src="images/loghme1.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-							<div class="col-sm-6 col-md-3 isotope-item web">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img src="images/jeek.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-2">
-											<i class="fa fa-search-plus"></i>
-											<span>Web Application</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Jeek Jeek</a>
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-2-label">Jeek Jeek, Twitter-like Local Web Application</h4>
-											</div>
-											<div class="modal-body">
-												<h3 style="font-size: large;">Project Description</h3>
-												<div class="space"></div>
-												<div class="row">
-													<div class="col-md-8">
-														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/AdvancedProgramming-JeekJeek"><i class="fa fa-github"></i>
-															<strong> Jeek Jeek</strong></a>
-															is a Twitter-like local web application by which you can tweet, have your own profile, like other's tweets and leave comments for them. 
+														<p><strong>Toorla</strong> is an object-oriented <strong>Java-like</strong> programming language which supports <strong>inheritance</strong>.
+															 Each Toorla program with .trl foramt contains one or more classes that have some fields and
+															methods. Toorla has been implemented in four phases using Java in IntelliJ IDEA.</p>
+															<p>
+															It has been developed as a student project for <strong>Compiler Design and Programming Languages</strong> course.</p>
+
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase1"><i class="fa fa-github"></i>
+															<strong>Phase I, Lexer and Parser</strong></a>:
+															Toorla's grammar was implemented using <strong>ANTLR</strong> and 
+															as well as a parser to create <strong>abstract syntax tree (AST)</strong> of input program.
 														</p>
-														<p> It has been developed during 2 phases with C as its back-end programming language as a student project for <strong>Advanced Programming</strong> course.</p>
-															CSS, HTML, and JS were used to design front-end pages as well.
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase2"><i class="fa fa-github"></i>
+															<strong>Phase II, Name Analyzer</strong></a>:
+															The name analyzer of the language was implemented to gather information about <strong>classes,
+															 fields, methods, local variables, 
+															and scopes</strong> of program and finding<strong> name analysis errors </strong>like undefined variables or redefinition.
+														</p>
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase3"><i class="fa fa-github"></i>
+															<strong>Phase III, Type Analyzer</strong></a>:
+															A type checker was implemented to<strong> check the types of variables</strong> in input program, 
+															finding<strong> relevant errors</strong> based on Toorla's documentation and <strong> setting initial value for various types</strong>.
+														</p>
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase4"><i class="fa fa-github"></i>
+															<strong>Phase IV, Code Generation</strong></a>:
+															The machine code was generated by converting Toorla's code to <strong> jasmin</strong> as a middle layer. 
+															Jasmin assembler converts its codes to<strong> class files</strong> which can be executed by<strong> JVM</strong> later.
+														</p>
 													</div>
 													<div class="col-md-4">
-														<img src="images/jeek.jpg" alt="">
+														<img src="images/java.jpg" alt="">
 													</div>
 												</div>
 											</div>
@@ -1193,60 +1166,192 @@
 								</div>
 								<!-- Modal end -->
 							</div>
-							<div class="col-sm-6 col-md-3 isotope-item compiler">
+							<div class="col-sm-6 col-md-3 isotope-item web">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/java.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-10">
+										<img src="images/loghme1.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-1">
 											<i class="fa fa-search-plus"></i>
-											<span>Compilers & Code Generation</span>
+											<span>Web Application</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-10">Toorla Compiler</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Loghme</a>
 								</div>
 								<!-- Modal -->
-								<div class="modal fade" id="project-10" tabindex="-1" role="dialog" aria-labelledby="project-10-label" aria-hidden="true">
+								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
 									<div class="modal-dialog modal-lg">
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-10-label">Toorla, Tiny Object Orinted Readable Language</h4>
+												<h4 class="modal-title" id="project-1-label">Loghme, Online Food Delivery Web Application</h4>
 											</div>
 											<div class="modal-body">
 												<h3 style="font-size: large;">Project Description</h3>
 												<div class="space"></div>
 												<div class="row">
 													<div class="col-md-8">
-														<p><strong>Toorla</strong> is an object-oriented <strong>Java-like</strong> programming language which supports <strong>inheritance</strong>.
-															 Each Toorla program with .trl foramt contains one or more classes that have some fields and
-															methods. Toorla has been implemented in four phases using Java in IntelliJ IDEA.</p>
-
-															It has been developed as a student project for <strong>Compiler Design and Programming Languages</strong> course.</p>
-
-														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase1"><i class="fa fa-github"></i>
-															<strong>Phase I, Lexer and Parser</strong></a>:
-															Toorla's grammar was implemented using <strong>ANTLR</strong> and 
-															as well as a parser to create <strong>abstract syntax tree (AST)</strong> of input program.
+														<p><strong>Loghme</strong> is a Persian online food delivery web application similar to waiter.com and other food delivery cooperations. 
+															It has been developed during 8 phases as a student project for <strong>Internet Engineering</strong> course.</p>
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/InternetEngineering-LoghmeBackend"><i class="fa fa-github"></i>
+															<strong> Loghme's Back end</strong></a> 
+															: Implemented with Java in IntelliJ IDEA using various tools and technologies such as Maven, Apache Tomcat,
+														Spring MVC, MySQL as database, etc. and deployed using Kubernetes and Docker.</p>
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/InternetEngineering-LoghmeReactjsFrontend"><i class="fa fa-github"></i>
+															<strong> Loghme's Front end</strong></a>
+															: Implemented using HTML, CSS, JavaScript, React.js, Nginx (with Kubernetes and Docker for deployment), etc.</p>
 														
-														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase2"><i class="fa fa-github"></i>
-															<strong>Phase II, Name Analyzer</strong></a>:
-															The name analyzer of the language was implemented to gather information about <strong>classes,
-															 fields, methods, local variables, 
-															and scopes</strong> of program and finding<strong> name analysis errors </strong>like undefined variables or redefinition.
-
-														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase3"><i class="fa fa-github"></i>
-															<strong>Phase III, Type Analyzer</strong></a>:
-															A type checker was implemented to<strong> check the types of variables</strong> in input program, 
-															finding<strong> relevant errors</strong> based on Toorla's documentation and <strong> setting initial value for various types</strong>.
-
-														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/Compiler-Phase4"><i class="fa fa-github"></i>
-															<strong>Phase IV, Code Generation</strong></a>:
-															The machine code was generated by converting Toorla's code to <strong> jasmin</strong> as a middle layer. 
-															Jasmin assembler converts its codes to<strong> class files</strong> which can be executed by<strong> JVM</strong> later.
+													</div>
+													<div class="col-md-4">
+														<img src="images/loghme1.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item web">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/jeek.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Application</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Jeek Jeek</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-2-label">Jeek Jeek, Twitter-like Local Web Application</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/AdvancedProgramming-JeekJeek"><i class="fa fa-github"></i>
+															<strong> Jeek Jeek</strong></a>
+															is a Twitter-like local web application by which you can tweet, have your own profile, like other's tweets and leave comments for them. 
+														</p>
+														<p> It has been developed during 2 phases with C as its back-end programming language as a student project for <strong>Advanced Programming</strong> course.</p>
+															CSS, HTML, and JS were used to design front-end pages as well.
+													</div>
+													<div class="col-md-4">
+														<img src="images/jeek.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item hw">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/classifier.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-13">
+											<i class="fa fa-search-plus"></i>
+											<span>Hardware Programming</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-13">Linear Classifier</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-13" tabindex="-1" role="dialog" aria-labelledby="project-13-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-13-label">Linear Classifier with Verilog</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+													   	<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ComputerArchitecture-Classification"><i class="fa fa-github"></i>
+														   <strong>A linear classifier</strong></a>
+														   was implemented by designing datapath and controller with<strong> Verilog</strong> as a hardware programming language in 
+														   <strong>Modelsim</strong>. The classifier was tested with a dataset and a similar one was implemented using<strong> MATLAB</strong>
+														   to evaluate their performance.
+														   </p>
+														   <p>
+														   It has been developed as a student project for <strong>Computer Architecture</strong> course.</p>
 
 													</div>
 													<div class="col-md-4">
-														<img src="images/java.jpg" alt="">
+														<img src="images/classifier.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							<div class="col-sm-6 col-md-3 isotope-item hw">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/mips.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-14">
+											<i class="fa fa-search-plus"></i>
+											<span>Hardware Programming</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-14">MIPS Processor</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-14" tabindex="-1" role="dialog" aria-labelledby="project-14-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-14-label">Implementation of MIPS Processor with Various Architecture</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+														<p><strong>MIPS</strong> is a reduced instruction set computer instruction set architecture. A simplified version of MIPS
+														was implemented with various architecture with <strong>Verilog</strong> in <strong>Modelsim</strong>.</p>
+
+														It has been developed as a student project for <strong>Compiler Design and Programming Languages</strong> course.</p>
+
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ComputerArchitecture-SingleMIPS"><i class="fa fa-github"></i>
+															<strong>Single Cycle MIPS</strong></a>:
+															A single cycle MIPS architecture in a minimal system was implemented with an ALU supporting various operators.
+															</p>
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ComputerArchitecture-MultiMIPS"><i class="fa fa-github"></i>
+															<strong>Multi Cycle MIPS</strong></a>:
+															A multi cycle MIPS architecture was implemented which works based on stack providing more operators.
+														</p>
+														<p><a href="https://github.com/Shakiba-Bolbolian-Khah/ComputerArchitecture-Pipeline"><i class="fa fa-github"></i>
+															<strong>Pipeline Architecture</strong></a>:
+															A MIPS processor with pipeline architecture was implemented as well as determining and resolving possible hazards. 
+															</p>
+															<p>
+															<strong>Note</strong>: An <strong>ARM</strong> instruction set with pipeline architecture was implemented in <strong>Computer Architecture Laboratoy</strong> supporting forwarding and hazard unit.
+															</p>
+														</div>
+													<div class="col-md-4">
+														<img src="images/mips.png" alt="">
 													</div>
 												</div>
 											</div>
@@ -1325,6 +1430,55 @@
 								</div>
 								<!-- Modal end -->
 							</div>
+							<div class="col-sm-6 col-md-3 isotope-item os">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/time.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-12">
+											<i class="fa fa-search-plus"></i>
+											<span>Operating Systems</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-12">Monitors</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-12" tabindex="-1" role="dialog" aria-labelledby="project-12-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-12-label">Solving a Simulated Problem using Monitors</h4>
+											</div>
+											<div class="modal-body">
+												<h3 style="font-size: large;">Project Description</h3>
+												<div class="space"></div>
+												<div class="row">
+													<div class="col-md-8">
+													   	<p><a href="https://github.com/Shakiba-Bolbolian-Khah/OperatingSystems-Monitors"><i class="fa fa-github"></i>
+														   <strong>Monitors</strong></a> are used to achieve process synchronization in operating system. Having used its feature,
+														   I tried to solve a<strong> simulated traffic problem to minimize the air pollution caused by cars</strong>. This means that by receiving information
+														   about cars' pollution and a map of the city as well as using monitors, the program tries to find the best schedule for cars to move across
+														   the streets. The monitors are implemented from <strong>scratch</strong>.</p>
+														   <p>
+														   It has been developed as a student project for <strong>Operating Systems</strong> course.
+														</p>
+													</div>
+													<div class="col-md-4">
+														<img src="images/time.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+
+
 						</div>
 						<!-- portfolio items end -->
 					
