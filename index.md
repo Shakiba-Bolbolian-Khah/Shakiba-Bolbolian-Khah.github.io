@@ -4,6 +4,14 @@
 <html lang="en">
 <!--<![endif]-->
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-07KCT8ZNF4"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-07KCT8ZNF4');
+		</script>
 		<meta charset="utf-8">
 		<title>Shakiba Bolbolian Khah</title>
 		<meta name="description" content="Shakiba Bolbolian Khah">
